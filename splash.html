@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/images/lgtgames-128x58.png" type="image/x-icon">
+  <meta name="description" content="">
+  <title>Home</title>
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
+<body>
+<div id="custom-html-2l" custom-code="true" data-rv-view="0"><meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="https://production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico">
+  <link rel="mask-icon" type="" href="https://production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111">
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <style>
+      @import "https://fonts.googleapis.com/css?family=Monoton";
+@import "https://fonts.googleapis.com/css?family=Press+Start+2P";
+@import "https://fonts.googleapis.com/css?family=Mr+Dafoe";
+@import "https://fonts.googleapis.com/css?family=Changa+One";
+body {
+  background: #000;
+  background-image: -webkit-linear-gradient(top, #6A0275 10%, #040C4A 60%);
+  background-image: linear-gradient(to bottom, #6A0275 10%, #040C4A 60%);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.m-logo {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: 501;
+}
+.m-logo__wrap {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  text-align: center;
+}
+.m-logo h1 {
+  font-family: 'Press start 2p', sans-serif;
+  font-size: 62px;
+  letter-spacing: -4px;
+  font-weight: 400;
+  margin: 0 0 0.25em;
+  line-height: 1.25;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3ff8c6), color-stop(0%, #3fa8c6), color-stop(100%, #399ab2));
+  background-image: -webkit-linear-gradient(top, #3fa8c6 0%, #3fa8c6 0%, #ff9ab2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.m-logo .subtitle {
+  color: #ec008c;
+  font-size: 50px;
+  margin: 0;
+  font-family: 'Mr Dafoe', serif;
+  text-shadow: 0px 1x 0px #530031;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  min-height: 400px;
+  overflow: hidden;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+.wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-linear-gradient(transparent 70%, rgba(0, 0, 0, 0.5) 30%);
+  background-image: linear-gradient(transparent 70%, rgba(0, 0, 0, 0.5) 30%);
+  background-size: 3px 3px;
+  z-index: 601;
+  pointer-events: none;
+}
+
+.m-grid {
+  position: absolute;
+  top: 50%;
+  margin-top: -75vh;
+  left: 50%;
+  margin-left: -100vw;
+  width: 200vw;
+  height: 150vh;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  background-image: -webkit-linear-gradient(bottom, transparent 24%, rgba(236, 0, 140, 0.5) 25%, rgba(236, 0, 140, 0.9) 26%, transparent 27%, transparent 74%, rgba(236, 0, 140, 0.5) 75%, rgba(236, 0, 140, 0.9) 76%, transparent 77%, transparent), -webkit-linear-gradient(left, transparent 24%, rgba(236, 0, 140, 0.75) 25%, rgba(236, 0, 140, 0.25) 26%, transparent 27%, transparent 74%, rgba(236, 0, 140, 0.75) 75%, rgba(236, 0, 140, 0.25) 76%, transparent 77%, transparent);
+  background-image: linear-gradient(0deg, transparent 24%, rgba(236, 0, 140, 0.5) 25%, rgba(236, 0, 140, 0.9) 26%, transparent 27%, transparent 74%, rgba(236, 0, 140, 0.5) 75%, rgba(236, 0, 140, 0.9) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(236, 0, 140, 0.75) 25%, rgba(236, 0, 140, 0.25) 26%, transparent 27%, transparent 74%, rgba(236, 0, 140, 0.75) 75%, rgba(236, 0, 140, 0.25) 76%, transparent 77%, transparent);
+  background-size: 50px 50px;
+}
+.m-grid.is-animating {
+  -webkit-animation: fly 1s linear;
+          animation: fly 1s linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fly {
+  0% {
+    -webkit-transform: perspective(300px) rotateX(80deg) translateY(0%);
+            transform: perspective(300px) rotateX(80deg) translateY(0%);
+  }
+  100% {
+    -webkit-transform: perspective(300px) rotateX(80deg) translateY(50px);
+            transform: perspective(300px) rotateX(80deg) translateY(50px);
+  }
+}
+
+@keyframes fly {
+  0% {
+    -webkit-transform: perspective(300px) rotateX(80deg) translateY(0%);
+            transform: perspective(300px) rotateX(80deg) translateY(0%);
+  }
+  100% {
+    -webkit-transform: perspective(300px) rotateX(80deg) translateY(50px);
+            transform: perspective(300px) rotateX(80deg) translateY(50px);
+  }
+}
+
+    </style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+
+
+
+  
+<div class="wrapper">
+  <div class="m-grid"></div>
+  <div class="m-logo">
+    <div class="m-logo__wrap">
+     <img src="https://loquatics.com/lgtgames.png">
+        <div class="subtitle">Localization Game Test</div>
+      <h1><a href="https://loquatics.com/LGTgames/index.html">Enter</a></h1>
+      
+    </div>
+  </div>
+</div>
+    <script src="//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js"></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+
+    <script >
+    'use strict';
+
+var grid = document.querySelector('.m-grid');
+var tl = new TimelineMax();
+
+TweenLite.set(grid, {
+  transformPerspective: 400,
+  transformOrigin: '50% 50%'
+});
+
+var anim2Props = {
+  rotationX: 75,
+  y: '0%',
+  ease: Power2.easeIn,
+  transformPerspective: 300,
+  onComplete: function onComplete() {
+    return grid.classList.add('is-animating');
+  }
+
+};
+
+tl.to(grid, 1, { scaleY: 1.5, ease: Power3.easeIn }).to(grid, 1, anim2Props, '+=0.3').to('.m-logo__wrap', 1, { scale: 1 });
+  //# sourceURL=pen.js
+  </script>
+
+  
+  
+
+
+
+ </div>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smooth-scroll/smooth-scroll.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  
+</body>
+</html>
